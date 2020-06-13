@@ -1,6 +1,6 @@
 import React from "react";
-import "./Spinner.css";
-import icon from './icon-news.svg';
+import "./styles/Spinner.css";
+import icon from './images/icon-news.svg';
 
 export default class Spinner extends React.Component {
 

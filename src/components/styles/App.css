@@ -65,17 +65,6 @@ h2:hover{
   top: 120px;
 }
 
-.content-title {
-  color: var(--heading-color);
-  font-size: 1.6em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-  display: inline-block;
-}
-
 .section-title {
   color: #212121;
   display: block;
@@ -133,25 +122,21 @@ h2:hover{
   opacity: 1;
 }
 
-.content .matches li {
-  font-size: 0.8em;
-  padding: 20px 24px;
-  min-width: 400px;
-}
-
-.content .matches li.description{
-  font-size: 15px;
-}
-
-.no-result {
-  padding-top: 25px;
-}
-
 .content {
   margin-left: 250px;
   padding: 16px 48px;
   padding-top: 100px;
 }
+.content-title {
+  color: var(--heading-color);
+  font-size: 1.6em;
+  margin-block-start: 1em;
+  font-weight: bold;
+  display: inline-block;
+  width: 100%;
+  background: linear-gradient(0.25turn, #ffffff, #ebf8e1, #c990f0);
+}
+
   .content-img {
       width: 250px;
       margin: 30px 30px 30px 0;

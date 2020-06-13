@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
-import uk from './uk.svg';
-import ReplacementImage from './news.png'
-import './App.css';
+import logo from './images/logo.svg';
+import uk from './images/uk.svg';
+import ReplacementImage from './images/news.png'
+import './styles/App.css';
 import Spinner from './Spinner';
 import Form from './Form';
 import NotFound from './NotFound';
@@ -125,7 +125,7 @@ export default class App extends React.Component{
                     <p className="slide-up-fade-in"><b>Source: </b> {article.source.name}</p>
                     <p className="date"><b>Published on: </b> {article.publishedAt.slice(0,10)}</p>
                   </div>
-                  <hr/>
+                  
               </section>
               )}
             </section>

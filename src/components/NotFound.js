@@ -1,13 +1,13 @@
 import React from 'react';
-import './NotFound.css';
-import notfound from './notfound.png'
+import './styles/NotFound.css';
+import notfound from './images/notfound.png'
 
 function NotFound(){
 
         return (
             <div>
                 <div className="NotFound">
-                    <img src={notfound} className="img"/>
+                    <img src={notfound} className="img" alt="404 Not Found!"/>
                 </div>
             </div>
         )
