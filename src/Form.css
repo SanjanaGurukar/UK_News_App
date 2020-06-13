@@ -1,0 +1,13 @@
+form{
+    padding-left:10px;
+    
+}
+
+.button {
+    background-color: rgb(201, 176, 247);
+}
+
+button:hover{
+    background-color: seashell;
+    cursor: pointer;
+}
