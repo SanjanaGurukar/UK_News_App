@@ -1,3 +1,30 @@
+## Want to see the Latest News?
+Follow the below steps:
+
+## Step 1:
+Open Git bash/Terminal in your target folder
+
+> git clone https://github.com/SanjanaGurukar/UK_News_App.git
+
+OR
+
+Download the Zip and extract from https://github.com/SanjanaGurukar/UK_News_App/archive/master.zip
+
+## Step 2:
+In Git bash/Terminal
+
+> cd [local repository]
+
+## Step 3: 
+
+>npm install
+
+## Step 4:
+
+>npm start
+
+---------------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
