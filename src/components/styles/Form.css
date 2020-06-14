@@ -1,13 +1,23 @@
 form{
     padding-left:10px;
-    
 }
 
 .button {
     background-color: rgb(201, 176, 247);
+    font-size: larger;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    margin-left: 5px;
 }
 
 button:hover{
-    background-color: seashell;
+    background-color: rgb(178, 53, 206);
     cursor: pointer;
+}
+
+.text-area{
+    padding: 10px;
 }
