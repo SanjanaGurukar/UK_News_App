@@ -29,7 +29,11 @@ export default class App extends React.Component{
       .then(results => results.json())
       .then(response => {
         this.setState({data: response.articles, headlines: response.articles,fetchInProgress:false});
-      });
+      })
+      .catch((error) => {
+        console.log(error, "catch the hoop")
+        this.setState({fetchInProgress: false});
+      })
     }
 
     /*
